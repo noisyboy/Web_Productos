@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+    <Resource
+        name="jdbc/productos"
+        auth="Container"
+        type="javax.sql.DataSource"
+        maxTotal="50" maxIdle="10" maxWaitMillis="-1"
+        driverClassName="com.mysql.jdbc.Driver"
+        factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+        url="jdbc:mysql://localhost:3306/db_pildoras"
+        username="sgdata"
+        password="d@ta/System*"
+    />
+</Context>
